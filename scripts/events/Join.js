@@ -42,7 +42,7 @@ ____________________________________
 জিঁলাঁপিঁ কে নক করতে পারেন 
 👉Fb https://www.facebook.com/ji.li.pi.6
 
-`, attachment: fs.createReadStream(__dirname + "Nayan", "font")} ,threadID));
+`, attachment: fs.createReadStream(__dirname + "Nazrul", "font")} ,threadID));
   }
   else {
     try {
