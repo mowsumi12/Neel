@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
 console.clear();
 function startBot(message) {
     (message) ? logger(message, "starting") : "";
-  console.log(chalk.blue('• X4 NAZRUL X4 SYSTEM •'));
+  console.log(chalk.blue('• X10 NAZRUL X10 SYSTEM •'));
   logger.loader(`deploying app on port ${chalk.blueBright(PORT)}`);
   app.listen(logger.loader(`app deployed on port ${chalk.blueBright(PORT)}`));
   const child = spawn("node", ["--trace-warnings", "--async-stack-traces", "nazrulb.js"], {
